@@ -4,9 +4,9 @@
 
 body {
     margin:0;
-    overflow: hidden;
+    overflow: auto;
     font-family: Roboto, sans-serif;
-    
+    height:auto;
 }
 
 .header {
@@ -85,4 +85,63 @@ a {
     justify-content: center;
     align-items: center;
     width: 300px;
+}
+
+.info {
+    padding: 40px 20px;
+}
+
+.info-title {
+    text-align: center;
+    font-size:36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 50px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+
+.info-img {
+    border: 5px solid #3382F6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+}
+
+.caption {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 8px;
+    word-wrap: break-word;
+}
+
+.quote-container {
+    background-color:#E5E7EB;
+    padding: 40px 60px;
+    font-size: 36px;
+}
+
+.quote {
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.quote-signature {
+    font-size: 14px;
+    text-align: right;
+    color: #1f2937;
+    font-weight: 900;
 }
